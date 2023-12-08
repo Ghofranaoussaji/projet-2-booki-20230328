@@ -181,7 +181,7 @@ nav a:hover { /*When the navs are hovered over, a border is displayed underneath
   
 .button {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   margin-right: 25px; /* Ajustez la marge droite selon vos besoins */
 }
 
@@ -192,13 +192,13 @@ nav a:hover { /*When the navs are hovered over, a border is displayed underneath
   color: #0065fc;
   font-size: large;
   padding: 10px;
-  margin-right: 1px; /* Ajustez la marge droite de l'icône selon vos besoins */
+  margin-right: 5px; /* Ajustez la marge droite de l'icône selon vos besoins */
 }
 
 .label {
   border-radius: 100px;
   padding: 10px;
-  padding-left: 50px;
+  padding-left: 30px;
   margin-left: -40px;
   border: 3px solid #f2f2f2;
 }
