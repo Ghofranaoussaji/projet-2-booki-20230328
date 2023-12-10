@@ -514,6 +514,14 @@ overridden when the desktop styles are implemented
   .card-style:hover{ /*Makes the cards slightly bigger on hover*/
     transform: scale(1.1);
   }
+  .col {
+    margin-right: 60px; /* Ajustez la marge à droite selon vos préférences */
+}
+
+.col:last-child {
+    margin-right: 0; /* Pour éviter la marge à droite pour la dernière colonne */
+}
+
 }
 
 
