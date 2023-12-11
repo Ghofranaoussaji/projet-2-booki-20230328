@@ -17,7 +17,16 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
-/*Sets font sizes, weights and hover behavious for all globally used elements*/
+@media only screen and (max-width: 767px) {
+    /* ... (styles spécifiques pour les écrans mobiles) ... */
+}
+
+/* Media queries pour les tablettes */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* ... (styles spécifiques pour les tablettes) ... */
+}
+
+
 a{
   text-decoration: none;
   color: black;
